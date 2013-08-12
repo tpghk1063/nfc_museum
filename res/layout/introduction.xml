@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"   
+    >
+    <TableRow >
+
+        <Button
+            android:id="@+id/history"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/history" />
+
+    </TableRow>
+    <TableRow >
+
+        <Button
+            android:id="@+id/guide"
+            android:layout_weight="1"
+            android:text="@string/guide" />
+
+    </TableRow>
+    <TableRow >
+
+        <Button
+            android:id="@+id/map"
+            android:layout_weight="1"
+            android:text="@string/map" />
+
+    </TableRow>
+</TableLayout>

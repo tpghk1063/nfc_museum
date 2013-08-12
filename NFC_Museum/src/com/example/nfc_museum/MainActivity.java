@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 		intro_btn = (Button) findViewById(R.id.introduction);
 		exhib_btn = (Button) findViewById(R.id.exhibition);
 		pinfo_btn = (Button) findViewById(R.id.personal_info);
-		//dsaldsfssssss
+		//dsaldsfssssss1111
 		
 		intro_btn.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){

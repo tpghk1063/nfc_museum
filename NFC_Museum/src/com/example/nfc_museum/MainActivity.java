@@ -8,7 +8,11 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-
+//test
+//1
+//2
+//3
+//4
 public class MainActivity extends Activity {
 	private Button intro_btn;
 	private Button exhib_btn;

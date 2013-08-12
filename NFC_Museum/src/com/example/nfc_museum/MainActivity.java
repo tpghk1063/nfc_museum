@@ -12,7 +12,7 @@ import android.widget.Button;
 //1
 //2
 //3
-//4sdgfdsgdsfgdsfgfdsg
+//4sdgfdsgdsfgdsfgfdsgaaaa
 public class MainActivity extends Activity {
 	private Button intro_btn;
 	private Button exhib_btn;

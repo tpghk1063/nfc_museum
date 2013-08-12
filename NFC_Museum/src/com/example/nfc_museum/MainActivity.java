@@ -32,14 +32,14 @@ public class MainActivity extends Activity {
 		intro_btn = (Button) findViewById(R.id.introduction);
 		exhib_btn = (Button) findViewById(R.id.exhibition);
 		pinfo_btn = (Button) findViewById(R.id.personal_info);
-		//dsal
+		//dsaldsf
 		
-//		intro_btn.setOnClickListener(new OnClickListener(){
-//			public void onClick(View v){
-//				Intent intent = new Intent(MainActivity.this, Introduction.class);
-//				startActivity(intent);
-//			}
-//		});
+		intro_btn.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				Intent intent = new Intent(MainActivity.this, Introduction.class);
+				startActivity(intent);
+			}
+		});
 		
 		exhib_btn.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){

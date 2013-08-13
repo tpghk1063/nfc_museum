@@ -25,41 +25,12 @@
             android:text="@string/search" >
         </EditText>
     </LinearLayout>
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >        
+    </ListView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
 
-            <ImageView
-                android:id="@+id/list_img_01"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_launcher" 
-                android:contentDescription="@string/list_image"/>
 
-            <Button
-                android:id="@+id/list_name_01"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ffffff" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <ImageView
-                android:id="@+id/list_img_02"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_launcher" 
-                android:contentDescription="@string/list_image"/>
-
-            <Button
-                android:id="@+id/list_name_02"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ffffff" />
-
-        </LinearLayout>
 </LinearLayout>

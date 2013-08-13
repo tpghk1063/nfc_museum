@@ -34,7 +34,7 @@ public class Exhibit_content extends Activity{
 		tv_texture = (TextView)findViewById(R.id.texture);
 		tv_use = (TextView)findViewById(R.id.use);
 		tv_location = (TextView)findViewById(R.id.location);
-		tv_id = (TextView)findViewById(R.id.id);
+		tv_id = (TextView)findViewById(R.id.id);		
 		
 		Intent intent = getIntent();
 		String name = intent.getStringExtra("name");

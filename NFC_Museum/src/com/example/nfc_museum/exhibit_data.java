@@ -12,8 +12,10 @@ public class exhibit_data {
 	private String use;
 	private String location;
 	private String id;
+	private String age;
+	private String design;
 	
-	public exhibit_data(Bitmap img, String name, String comm, String cntry, String txtr, String use, String loc, String id){
+	public exhibit_data(Bitmap img, String name, String comm, String cntry, String txtr, String use, String loc, String id, String age, String design){
 		this.image = img;
 		this.name = name;
 		this.comment = comm;
@@ -22,6 +24,8 @@ public class exhibit_data {
 		this.use = use;
 		this.location = loc;
 		this.id = id;
+		this.age = age;
+		this.design = design;
 		
 	}
 	
@@ -55,5 +59,13 @@ public class exhibit_data {
 	
 	public String getId(){
 		return id;
+	}
+	
+	public String getDesign(){
+		return design;
+	}
+	
+	public String getAge(){
+		return age;
 	}
 }

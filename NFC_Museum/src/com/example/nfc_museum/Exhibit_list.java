@@ -78,6 +78,10 @@ public class Exhibit_list extends Activity{
 		adapter = new Exhibit_Adapter(this, Data);
 		list = (ListView)findViewById(R.id.list);
 		list.setAdapter(adapter);
+		
+		
+		
+		
 	}
 	
 	
@@ -133,8 +137,8 @@ public class Exhibit_list extends Activity{
 						InputStream input_img = conn.getInputStream();
 						BufferedInputStream bis = new BufferedInputStream(input_img);
 						image = BitmapFactory.decodeStream(bis);
+						image = Bitmap.createScaledBitmap(image, 100, 100, true);
 						bis.close();
-						is.close();				
 						
 					}
 					else if(tag.equals("name")){
@@ -177,15 +181,13 @@ public class Exhibit_list extends Activity{
 					break;				
 				case XmlPullParser.END_TAG:
 					if(tag.equals("data"))
-						Data.add(new exhibit_data(image, name,comment, country, texture, use, location, id));					
+						Data.add(new exhibit_data(image, name,comment, country, texture, use, location, id, age, design));					
 					break;
 				}
 				parser.next();
 				status = parser.getEventType();
 			}
-			
-			
-			
+			is.close();
 						
 		}
 		catch (Exception e){	

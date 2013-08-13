@@ -45,7 +45,8 @@ public class Exhibit_content extends Activity{
 		String use = intent.getStringExtra("use");
 		String location = intent.getStringExtra("location");
 		String id = intent.getStringExtra("id");		
-		Bitmap image = (Bitmap) intent.getExtras().get("image");		
+		Bitmap image = (Bitmap) intent.getExtras().get("image");
+			
 		
 		country = country + "/" + age;
 		

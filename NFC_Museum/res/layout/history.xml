@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서강대학교 박물관은 한국 민족 문화에 대한 이해와 학문적 연구에 도움을 주는 데 그 목적을 두고 1974년 2월 2일 개관하였다. \n\n
+
+종합대학으로 승격과 때를 같이하여 문을 열게 된 박물관은 도서관 입구 좌측 공간에 자리하였다. 매우 작은 공간이었지만 1994년 2월 다산관 2층으로 이전하기 전까지 학생들에게 교육의 장으로서 적지 않은 역할을 하였다. \n\n
+
+처음 개관하였을 때는 故 손세기 선생이 기증한 고서화 200여 점으로 박물관을 꾸몄다. 손세기 선생은 전해종(사학) 교수의 주선으로 박물관 개관 1년 전인 1973년 1월 30일에 고서화를 기증해 주었다. 당시 손세기 선생은 인사동 등 여러 곳에서 유물을 구입하게 되면, 故 최순우 국립중앙박물관장에게 보였다고 한다. 그런 가운데 유물이 많아지자 그는 유물을 잘 보관해 줄 수 있는 곳을 찾게 되었다. 이에 최순우 관장은 당시 서강대학교에 재직중이던 전해종 교수를 소개하였고, 두 사람의 만남이 이루어져 귀중한 유물들이 서강대학교에 오게 되었던 것이다. 그러니 이 세 사람의 인연이 이루어지지 못하였다면 서강대학교에서는 이런 유물을 소장할 수 없었을런지도 모른다.\n\n 
+
+이후에도 유물의 기증은 계속해서 이루어졌다. 최구 선생이 1974년 12월 23일 청자상감국화문소병을 비롯한 청자 21점을 기증하였다. 그리고 1987년에는 이문원 선생이 민속품 539점을 기증하였다. 또한 1990년 서강대학교 개교 30주년을 기념하여 원곡 김기승 선생이 서예 작품 37점을 기증하였다. 현재 소장품은 약 1,800여 점이며, 개강 중 수시로 교체하여 전시하고 있으며, 특별 전시회도 열고 있다. " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

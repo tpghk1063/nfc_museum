@@ -48,12 +48,12 @@ public class Exhibit_content extends Activity{
 		Bitmap image = (Bitmap) intent.getExtras().get("image");
 			
 		
-		country = country + "/" + age;
+		String country_age = country + "/" + age;
 		
 		iv.setImageBitmap(image);
 		tv_name.setText(name);
 		tv_comment.setText(comment);
-		tv_country.setText(country);		
+		tv_country.setText(country_age);		
 		tv_texture.setText(texture);
 		tv_use.setText(use);
 		tv_location.setText(location);

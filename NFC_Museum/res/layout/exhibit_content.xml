@@ -4,30 +4,10 @@
     android:layout_height="fill_parent"    
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:entries="@array/choice"
-            android:prompt="@string/prompt" />
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint=""
-            android:text="@string/search" >
-        </EditText>
-    </LinearLayout>
+   
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 
             <ImageView
@@ -38,7 +18,7 @@
                 android:contentDescription="@string/list_image"/>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
                 

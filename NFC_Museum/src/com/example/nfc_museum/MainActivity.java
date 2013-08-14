@@ -8,12 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-//test
-//1
-//2
-//3
-//4
-//jkhjkhkj
+
 public class MainActivity extends Activity {
 	private Button intro_btn;
 	private Button exhib_btn;
@@ -22,22 +17,12 @@ public class MainActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
-	}
-	
-	@Override
-	public void onStart(){
-		super.onStart();				
-	}
-	
-	@Override
-	public void onResume(){
-		super.onResume();
 		setContentView(R.layout.activity_main);		
 		
 		intro_btn = (Button) findViewById(R.id.introduction);
 		exhib_btn = (Button) findViewById(R.id.exhibition);
 		pinfo_btn = (Button) findViewById(R.id.personal_info);
-		//dsaldsfssssss1111
+		
 		
 		intro_btn.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){

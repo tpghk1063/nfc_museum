@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:gravity="center_vertical"
-    android:orientation="vertical"   
-    >
-    <TableRow >
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mainbg2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
 
         <Button
             android:id="@+id/history"
-            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/history" />
 
-    </TableRow>
-    <TableRow >
-
         <Button
             android:id="@+id/guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/guide" />
 
-    </TableRow>
-    <TableRow >
-
         <Button
             android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/map" />
+    </LinearLayout>
 
-    </TableRow>
-</TableLayout>
+</FrameLayout>

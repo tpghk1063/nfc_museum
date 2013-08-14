@@ -1,32 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="center_vertical|center_horizontal"
-    android:orientation="vertical"   
-    >
-    <TableRow >
+    android:background="#90000000" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
         <Button
-            android:id="@+id/introduction"            
-            android:layout_weight="1"
-            android:text="@string/introduction" />
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/introduction" />
 
-    </TableRow>
-    <TableRow >
+    <Button
+        android:id="@+id/exhibition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/exhibition" />
 
-        <Button
-            android:id="@+id/exhibition"
-            android:layout_weight="1"
-            android:text="@string/exhibition" />
+    <Button
+        android:id="@+id/personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/personal_info" />
+    </LinearLayout>
 
-    </TableRow>
-    <TableRow >
-
-        <Button
-            android:id="@+id/personal_info"
-            android:layout_weight="1"
-            android:text="@string/personal_info" />
-
-    </TableRow>
-</TableLayout>
+</FrameLayout>

@@ -27,6 +27,15 @@
         <activity
             android:name="com.example.nfc_museum.Introduction">
         </activity>
+        <activity 
+            android:name="com.example.nfc_museum.Location">            
+        </activity>
+        <activity 
+            android:name="com.example.nfc_museum.Guidence">            
+        </activity>
+        <activity
+            android:name="com.example.nfc_museum.History">            
+        </activity>
         <activity
             android:name="com.example.nfc_museum.Exhibition">
         </activity>        

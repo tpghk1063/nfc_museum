@@ -2,29 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"    
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="#80222222" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:baselineAligned="true" >
 
         <Spinner
             android:id="@+id/spinner1"
-            android:layout_width="158dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:entries="@array/choice"
-            android:prompt="@string/prompt" />
+            android:layout_weight="1"
+            android:text="Choose Country" />
 
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint=""
-            android:text="@string/search" >
-        </EditText>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose Era" />
+
     </LinearLayout>
+
     <ListView 
         android:id="@+id/list"
         android:layout_width="match_parent"

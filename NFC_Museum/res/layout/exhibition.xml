@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"    
-    android:orientation="vertical" >
+    android:layout_height="fill_parent"
+    android:background="#A0234266" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:entries="@array/choice"
-            android:prompt="@string/prompt" />
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint=""
-            android:text="@string/search" >
-        </EditText>
-    </LinearLayout>
-    
-    <LinearLayout 
-        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">     
+        android:gravity="center"
+        android:orientation="vertical" >
 
         <Button
             android:id="@+id/country_btn"
@@ -55,8 +33,6 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="@string/design" />
-        
     </LinearLayout>
 
-
-</LinearLayout>
+</FrameLayout>

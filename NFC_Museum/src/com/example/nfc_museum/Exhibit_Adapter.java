@@ -1,7 +1,6 @@
 package com.example.nfc_museum;
 
 import java.util.ArrayList;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -37,9 +36,11 @@ public class Exhibit_Adapter extends BaseAdapter {
 		
 		ImageView image = (ImageView) convertView.findViewById(R.id.list_img);
 		Button button = (Button) convertView.findViewById(R.id.list_name);
-		
+				
 		image.setImageBitmap(Data.get(position).getImage());		
 		button.setText(Data.get(position).getName());
+		
+		
 		button.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){				
 				Intent intent = new Intent(v.getContext(),Exhibit_content.class);
